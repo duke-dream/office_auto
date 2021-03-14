@@ -1,0 +1,11 @@
+Sub main()
+Dim i As Integer
+Dim u As Integer
+i = 0
+u = 0
+Do While i < 101
+    u = u + i
+    i = i + 1
+Loop
+Debug.Print u
+End Sub
