@@ -1,0 +1,11 @@
+Sub main_1()
+    main_2
+End Sub
+Function main_2()
+    Debug.Print "老大叫我了。老三跟我来，咱们一起。"
+    main_3
+End Function
+
+Function main_3()
+    Debug.Print "好的，二哥。我来了。"
+End Function
